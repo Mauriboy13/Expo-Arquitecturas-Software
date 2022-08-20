@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Coloapa Rogel Paola, Morales Martinez David, Rodriguez Garcia Mauricio">
+        <meta http-equiv="content-language" content="es-mx">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="icon" href="images/icono1.png">
+        <title>Nivel 3</title>
+    </head>
+    <body>
+        <header>
+           <a href="index.html" class="logo">
+             <img src="images/logoGarzaMovil.png" alt="Logo Garza UAEH">
+             <h2 class="nombre-escuela">Escuela Superior de Tizayuca ESTi-UAEH</h2>
+           </a>
+           <nav>
+                <a href="index.html" class="nav-link">Inicio</a>
+                <a href="nivel1.html" class="nav-link">Nivel 1</a>
+                <a href="nivel2.html" class="nav-link">Nivel 2</a>
+                <a href="nivel3.html" class="nav-link">Nivel 3</a>
+                <a href="actividad.html" class="nav-link">Actividad</a>
+            </nav>
+        </header>
+        <article class="article">
+            <h1>Arquitectura nivel 3 (Modelo-vista-controlador)</h1>
+            <p>La arquitectura de tres niveles es una arquitectura de software de aplicación bien establecida que separa las
+                aplicaciones
+                en tres niveles de informática lógica y física: el nivel de presentación o la interfaz de usuario, el nivel de
+                aplicación
+                o donde se procesan los datos, y el nivel de datos donde se almacenan y gestionan los datos asociados con la
+                aplicación.</p> 
+            <h2>Nivel de presentación</h2>
+            <p>El nivel de presentación es la interfaz de usuario y de comunicación de la aplicación, donde el usuario final
+                interactúa con la
+                aplicación. Su objetivo principal es mostrar información al usuario y recopilar datos de este.</p>
+            <h2>Nivel de aplicación</h2>
+            <p>El nivel de aplicación, también conocido como el nivel lógico o medio, es el núcleo de la aplicación. En este
+                nivel,
+                se procesa la información recopilada en el nivel de presentación, a veces con otra información en el nivel de
+                datos.<br>El nivel de aplicación normalmente se desarrolla utilizando Python, Java, Perl, PHP o Ruby, y se comunica con el
+                nivel de datos mediante llamadas a las API.
+            </p>
+            <h2>Nivel de datos</h2>
+            <p>El nivel de datos, a veces denominado nivel de base de datos, nivel de acceso a datos o backend, es donde se
+                almacena y gestiona la información procesada por la aplicación. </p>
+        
+            <h2>Ventajas:</h2>
+            <ul>
+                <li>El beneficio clave de los tres niveles es la escalabilidad mejorada, ya que los servidores de aplicaciones
+                    se pueden
+                    implementar en muchas máquinas.</li>
+                <li>Mejora la integridad de los datos.</li>
+                <li>Se mejora la seguridad ya que el cliente no tiene acceso directo a la base de datos; Es más difícil para un
+                    cliente
+                    obtener datos no autorizados.</li>
+                <li>El equilibrio de la carga es mucho más fácil con la división del negocio principal desde el servidor de la
+                    base de
+                    datos.</li>
+            </ul>
+            <h2>Desventajas:</h2>
+            <ul>
+                <li>Es más complejo que el modelo de computación cliente-servidor de 2 niveles, porque es más difícil construir
+                    una
+                    aplicación de 3 niveles.</li>
+                <li>El cliente no mantiene una conexión de base de datos persistente.</li>
+                <li>El tráfico de red aumentará si se utiliza un servidor proxy independiente.</li>
+            </ul>
+            <br>
+            <h1>Ejemplos: </h1>
+            <ul>
+                <li>Aplicaciones de línea de negocios (LOB), como contabilidad, y sistemas de gestión de clientes.</li>
+                <li>Aplicaciones web Corporativas y sitios Web.</li>
+                <li>Aplicaciones corporativas de escritorio o clientes inteligentes con servidores centralizados de aplicación
+                    con lógica de negocios.</li>
+            </ul>
+            <img src="images/Arquitectura3Niveles.png">
+        </article>
+    </body>
+    <footer></footer>
+</html>
+            
